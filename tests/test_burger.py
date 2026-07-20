@@ -62,3 +62,4 @@ class TestBurger:
     def test_get_price_returns_correct_total(self, burger_with_ingredients):
         expected_price = BUN_PRICE_1 * 2 + SAUCE_PRICE + FILLING_PRICE
         assert burger_with_ingredients.get_price() == expected_price
+        
